@@ -48,7 +48,7 @@ std::vector<cv::Mat> Converter::toDescriptorVector(const cv::Mat &Descriptors)
 		//从描述子这个矩阵中抽取出来存到向量中
         vDesc.push_back(Descriptors.row(j));
 	
-	//返回转换结果
+	//返回转换结果。lala
     return vDesc;
 }
 
